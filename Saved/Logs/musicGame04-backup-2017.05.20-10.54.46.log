@@ -1,0 +1,1080 @@
+﻿Log file open, 05/19/17 17:21:54
+LogInit:Display: Running engine for game: musicGame04
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(987319181) SRandInit(987319181).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068419
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.19-07.51.54:810][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.19-07.51.54:810][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.19-07.51.54:830][  0]LogInit: Computer: XXXX-PC-X
+[2017.05.19-07.51.54:830][  0]LogInit: User: User
+[2017.05.19-07.51.54:830][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.05.19-07.51.54:830][  0]LogInit: High frequency timer resolution =2.533308 MHz
+[2017.05.19-07.51.54:831][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.05.19-07.51.54:831][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.19-07.51.54:831][  0]LogMemory: Process Physical Memory: 266.00 MB used, 266.00 MB peak
+[2017.05.19-07.51.54:831][  0]LogMemory: Process Virtual Memory: 262.52 MB used, 262.52 MB peak
+[2017.05.19-07.51.54:831][  0]LogMemory: Physical Memory: 4024.18 MB used,  8141.98 MB free, 12166.16 MB total
+[2017.05.19-07.51.54:831][  0]LogMemory: Virtual Memory: 698.48 MB used,  8141.98 MB free, 134217728.00 MB total
+[2017.05.19-07.51.54:857][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.05.19-07.51.55:680][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.19-07.51.55:684][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2017.05.19-07.51.55:684][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.05.19-07.51.55:685][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.19-07.51.55:685][  0]LogD3D11RHI:       0/0/6083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.19-07.51.55:685][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.19-07.51.55:689][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.19-07.51.55:690][  0]LogD3D11RHI:     GPU DeviceId: 0x166 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.19-07.51.55:690][  0]LogWindows: EnumDisplayDevices:
+[2017.05.19-07.51.55:690][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2017.05.19-07.51.55:690][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.05.19-07.51.55:690][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.05.19-07.51.55:690][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.05.19-07.51.55:690][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4000
+[2017.05.19-07.51.55:690][  0]LogD3D11RHI:   Driver Version: 10.18.10.4358 (internal:10.18.10.4358, unified:10.18.10.4358)
+[2017.05.19-07.51.55:690][  0]LogD3D11RHI:      Driver Date: 12-21-2015
+[2017.05.19-07.51.55:690][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2017.05.19-07.51.55:694][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.19-07.51.55:699][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.05.19-07.51.55:700][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../Users/User/Desktop/superMusicGame/Intermediate/Shaders/WorkingDirectory/5932/).
+[2017.05.19-07.51.55:700][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/8B9C0DC8408820B4DCCD36BE7F96A878/'.
+[2017.05.19-07.51.55:700][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.19-07.51.56:931][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.19-07.51.56:999][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.19-07.51.57:071][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.19-07.51.57:138][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.19-07.51.57:206][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.19-07.51.57:274][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.19-07.51.57:343][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.19-07.51.57:413][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.19-07.51.57:472][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.19-07.51.57:542][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.19-07.51.57:613][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.19-07.51.57:681][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.19-07.51.57:748][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.19-07.51.57:817][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.19-07.51.57:886][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.19-07.51.58:018][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.19-07.51.58:018][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.19-07.51.58:070][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.19-07.51.58:175][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.19-07.51.58:222][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.19-07.51.58:289][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.19-07.51.58:359][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.19-07.51.58:427][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.19-07.51.58:495][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.19-07.51.58:495][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.19-07.51.58:997][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.19-07.51.59:056][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.05.19-07.51.59:056][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.05.19-07.51.59:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Desktop/superMusicGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.19-07.51.59:056][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.19-07.51.59:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Desktop/superMusicGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.19-07.51.59:056][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.19-07.51.59:076][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.19-07.51.59:088][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.19-07.51.59:356][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.19-07.51.59:360][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.19-07.51.59:609][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.19-07.51.59:664][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.19-07.51.59:723][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.19-07.51.59:723][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.19-07.51.59:723][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.19-07.52.00:416][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: musicgame04, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2475016038
+[2017.05.19-07.52.00:481][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.05.19-07.52.00:569][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.043329 seconds
+[2017.05.19-07.52.00:576][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.05.19-07.52.00:576][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.05.19-07.52.00:576][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.19-07.52.00:663][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.19-07.52.01:889][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.19-07.52.01:890][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.19-07.52.01:890][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.19-07.52.02:914][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.19-07.52.02:959][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.19-07.52.03:339][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.19-07.52.03:818][  0]SourceControl: Info Source control is disabled
+[2017.05.19-07.52.03:819][  0]SourceControl: Info Source control is disabled
+[2017.05.19-07.52.03:879][  0]SourceControl: Info Source control is disabled
+[2017.05.19-07.52.03:936][  0]SourceControl: Info Source control is disabled
+[2017.05.19-07.52.05:598][  0]LogEngine: Initializing Engine...
+[2017.05.19-07.52.05:599][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.19-07.52.05:889][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.19-07.52.05:898][  0]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.19-07.52.05:928][  0]LogInit: FAudioDevice initialized.
+[2017.05.19-07.52.05:963][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.05.19-07.52.05:976][  0]LogInit: Texture streaming: Enabled
+[2017.05.19-07.52.06:212][  0]LogInit: Transaction tracking system initialized
+[2017.05.19-07.52.06:653][  0]BlueprintLog: New page: Editor Load
+[2017.05.19-07.52.07:786][  0]LocalizationService: Info Localization service is disabled
+[2017.05.19-07.52.08:621][  0]LogConsoleResponse:Display: 
+[2017.05.19-07.52.08:840][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.19-07.52.08:840][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.19-07.52.09:540][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Desktop/superMusicGame/Content/' took 0.02s
+[2017.05.19-07.52.10:052][  0]SourceControl: Info Source control is disabled
+[2017.05.19-07.52.10:052][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Desktop/superMusicGame/Content/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.19-07.52.10:053][  0]LightingResults: New page: Lighting Build
+[2017.05.19-07.52.10:105][  0]MapCheck: New page: Map Check
+[2017.05.19-07.52.10:105][  0]LightingResults: New page: Lighting Build
+[2017.05.19-07.52.10:655][  0]LogBlueprint:Warning: [enemy] 'LastMovement' variable not found. Base class was probably changed.
+[2017.05.19-07.52.10:655][  0]LogBlueprint:Warning: [enemy] 'LastMovement' variable not found. Base class was probably changed.
+[2017.05.19-07.52.10:655][  0]LogBlueprint:Warning: [enemy] 'Sprite' variable not found. Base class was probably changed.
+[2017.05.19-07.52.10:655][  0]LogBlueprint:Warning: [enemy] 'LastMovement' variable not found. Base class was probably changed.
+[2017.05.19-07.52.10:655][  0]LogBlueprint:Warning: [enemy] 'Atacked' variable not found. Base class was probably changed.
+[2017.05.19-07.52.10:655][  0]LogBlueprint:Warning: [enemy] 'LastMovement' variable not found. Base class was probably changed.
+[2017.05.19-07.52.11:084][  0]LogBlueprint:Warning: [pathEnemy] 'moveEnemyV' variable not found. Base class was probably changed.
+[2017.05.19-07.52.11:084][  0]LogBlueprint:Warning: [pathEnemy] 'moveEnemyV' variable not found. Base class was probably changed.
+[2017.05.19-07.52.11:384][  0]LogAIModule: Creating AISystem for world Level01
+[2017.05.19-07.52.11:395][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.19-07.52.11:396][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.19-07.52.11:461][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.645ms to complete.
+[2017.05.19-07.52.11:461][  0]LogFileHelpers: Loading map 'Level01' took 1.409
+[2017.05.19-07.52.11:507][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.19-07.52.11:650][  0]LogCollectionManager: Loaded 0 collections in 0.001648 seconds
+[2017.05.19-07.52.11:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Desktop/superMusicGame/Saved/Collections/' took 0.01s
+[2017.05.19-07.52.11:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Desktop/superMusicGame/Content/Developers/User/Collections/' took 0.01s
+[2017.05.19-07.52.11:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Desktop/superMusicGame/Content/Collections/' took 0.01s
+[2017.05.19-07.52.11:756][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.05.19-07.52.11:769][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2190 classes and 428 folders.
+[2017.05.19-07.52.11:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.19-07.52.11:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.19-07.52.11:830][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 13 classes and 0 folders.
+[2017.05.19-07.52.11:910][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.19-07.52.12:294][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.19-07.52.12:357][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.05.19-07.52.12:450][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.19-07.52.12:461][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.19-07.52.12:540][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.19-07.52.12:540][  0]LogLoad: (Engine Initialization) Total time: 21.41 seconds
+[2017.05.19-07.52.12:540][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.34 seconds
+[2017.05.19-07.52.12:540][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.19-07.52.12:549][  0]LogOcInput: OculusInput pre-init called
+[2017.05.19-07.52.12:583][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.19-07.52.12:783][  0]LogRenderer: Reallocating scene render targets to support 868x376 NumSamples 1 (Frame:2).
+[2017.05.19-07.52.13:109][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/User/Desktop/superMusicGame/Content/' took 0.55s
+[2017.05.19-07.52.13:176][  2]LogAssetRegistry: Asset discovery search completed in 12.7171 seconds
+[2017.05.19-07.52.13:176][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.05.19-07.52.13:176][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.05.19-07.52.25:270][478]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.19-07.52.25:305][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.19-07.52.25:306][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.19-07.52.25:307][478]PIE: New page: PIE session: Level01 (20 May 2017 2:52:25 am)
+[2017.05.19-07.52.25:308][478]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01
+[2017.05.19-07.52.25:317][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008956s)
+[2017.05.19-07.52.25:317][478]LogAIModule: Creating AISystem for world Level01
+[2017.05.19-07.52.25:318][478]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2017.05.19-07.52.25:318][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01.Level01 to /Game/UEDPIE_0_Level01.Level01 (0.010260s)
+[2017.05.19-07.52.25:370][478]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.19-07.52.25:386][478]LogInit: FAudioDevice initialized.
+[2017.05.19-07.52.25:456][478]LogLoad: Game class is 'BasicLevelMode_C'
+[2017.05.19-07.52.25:462][478]LogWorld: Bringing World /Game/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2017.05.19-17.22.25
+[2017.05.19-07.52.25:469][478]LogWorld: Bringing up level for play took: 0.010374
+[2017.05.19-07.52.25:554][478]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.05.19-07.52.25:555][478]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.19-07.52.25:555][478]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.19-07.52.25:555][478]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.19-07.52.25:564][478]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.19-07.52.25:570][478]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level01 -0.476
+[2017.05.19-07.52.25:571][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.19-07.52.25:624][478]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:387).
+[2017.05.19-07.52.27:484][501]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.27:487][501]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.27:543][502]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.27:609][503]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.27:667][504]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.27:729][505]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.27:733][505]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.27:797][506]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.27:922][508]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.27:927][508]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.27:990][509]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:053][510]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:114][511]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:119][511]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:181][512]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:238][513]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:302][514]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:306][514]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:477][517]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:482][517]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:482][517]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.28:568][518]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:568][518]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.28:597][519]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:597][519]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.28:639][520]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:639][520]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.28:692][521]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:692][521]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.28:697][521]LogBlueprintUserMessages: [chargeEnemy5_72] dealt dmg from charger
+[2017.05.19-07.52.28:697][521]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:697][521]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.28:755][522]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:755][522]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.28:813][523]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:867][524]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:873][524]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.28:982][526]LogBlueprintUserMessages: [chargeEnemy5_72] dealt dmg from charger
+[2017.05.19-07.52.29:032][527]LogBlueprintUserMessages: [chargeEnemy2_39] dealt dmg from charger
+[2017.05.19-07.52.29:130][528]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:133][528]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:153][529]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:197][530]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:250][531]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:255][531]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:309][532]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:363][533]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:411][534]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:415][534]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:468][535]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:615][538]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:619][538]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:673][539]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:721][540]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:775][541]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:828][542]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:876][543]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:881][543]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:936][544]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.29:985][545]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:082][547]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:085][547]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:139][548]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:185][549]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:240][550]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:284][551]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:337][552]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:384][553]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:436][554]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:483][555]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:779][561]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:782][561]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:835][562]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:882][563]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:934][564]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:979][565]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.30:982][565]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:034][566]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:082][567]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:132][568]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:136][568]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:182][569]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:430][574]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:433][574]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:482][575]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:534][576]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:589][577]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:632][578]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:635][578]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:689][579]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:736][580]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.31:783][581]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:029][586]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:034][586]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:080][587]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:133][588]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:178][589]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:225][590]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:274][591]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:278][591]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:330][592]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:378][593]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:426][594]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:526][596]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:529][596]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:578][597]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:630][598]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:678][599]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:727][600]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:731][600]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:776][601]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:829][602]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:876][603]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:923][604]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:972][605]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.32:977][605]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:021][606]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:076][607]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:121][608]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:169][609]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:174][609]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:219][610]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:273][611]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:319][612]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:370][613]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:375][613]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:568][617]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:572][617]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:617][618]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:671][619]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:716][620]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:766][621]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:773][621]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:817][622]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:869][623]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:920][624]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.33:968][625]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:011][626]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:014][626]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:068][627]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:116][628]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:167][629]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:213][630]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:218][630]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:262][631]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:311][632]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:364][633]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:412][634]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:660][639]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:664][639]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:710][640]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:765][641]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:810][642]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:864][643]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:915][644]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.34:961][645]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:008][646]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:062][647]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:407][654]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:410][654]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:456][655]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:504][656]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:556][657]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:603][658]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:659][659]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:704][660]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:756][661]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.35:809][662]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.36:843][683]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.36:846][683]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.36:893][684]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.36:946][685]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.36:991][686]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:044][687]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:091][688]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:144][689]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:191][690]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:245][691]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:287][692]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:292][692]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:343][693]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:391][694]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:443][695]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:489][696]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:542][697]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:584][698]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:589][698]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:641][699]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:688][700]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:784][702]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:790][702]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:841][703]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:889][704]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:939][705]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.37:986][706]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:034][707]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:038][707]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:084][708]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:138][709]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:184][710]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:234][711]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:238][711]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:284][712]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:336][713]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:382][714]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:434][715]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:478][716]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:482][716]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:534][717]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:582][718]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:635][719]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:677][720]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:681][720]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:734][721]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:780][722]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:833][723]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:877][724]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:880][724]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:932][725]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.38:980][726]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.39:032][727]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.39:079][728]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.39:956][745]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.39:961][745]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.40:025][746]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.40:080][747]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.40:130][748]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.40:133][748]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.40:198][749]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.40:251][750]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.40:306][751]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.40:312][751]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.40:842][760]LogBlueprintUserMessages: [chargeEnemy5_72] dealt dmg from charger
+[2017.05.19-07.52.41:140][765]LogBlueprintUserMessages: [chargeEnemy4_23] dealt dmg from charger
+[2017.05.19-07.52.41:198][766]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:202][766]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:202][766]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.41:260][767]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:260][767]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.41:315][768]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:315][768]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.41:376][769]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:376][769]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.41:379][769]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:379][769]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.41:435][770]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:435][770]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.41:493][771]LogBlueprintUserMessages: [chargeEnemy3_64] dealt dmg from charger
+[2017.05.19-07.52.41:493][771]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:493][771]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.41:549][772]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:549][772]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.41:553][772]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:723][775]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:726][775]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:785][776]LogBlueprintUserMessages: [chargeEnemy3_64] dealt dmg from charger
+[2017.05.19-07.52.41:785][776]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:842][777]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:897][778]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:902][778]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.41:961][779]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:021][780]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:021][780]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.42:079][781]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:079][781]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.42:083][781]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:083][781]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.42:254][784]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:258][784]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:316][785]LogBlueprintUserMessages: [chargeEnemy12_38] dealt dmg from charger
+[2017.05.19-07.52.42:316][785]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:377][786]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:427][787]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:432][787]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:489][788]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:549][789]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:601][790]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:604][790]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:836][794]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:840][794]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:901][795]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.42:959][796]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:012][797]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:016][797]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:074][798]LogBlueprintUserMessages: [chargeEnemy10_181] dealt dmg from charger
+[2017.05.19-07.52.43:074][798]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:130][799]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:186][800]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:192][800]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:419][804]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:419][804]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.43:423][804]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:482][805]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:542][806]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:596][807]LogBlueprintUserMessages: [chargeEnemy3_64] dealt dmg from charger
+[2017.05.19-07.52.43:596][807]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:652][808]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:656][808]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:717][809]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:775][810]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:826][811]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:830][811]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:889][812]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.43:948][813]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:006][814]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:069][815]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:123][816]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:179][817]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:183][817]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:356][820]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:359][820]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:418][821]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:478][822]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:540][823]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:598][824]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:601][824]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:656][825]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:716][826]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:774][827]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:777][827]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:839][828]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:897][829]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.44:953][830]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:010][831]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:013][831]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:076][832]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:137][833]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:194][834]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:197][834]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:253][835]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:313][836]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:372][837]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:431][838]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:434][838]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:494][839]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:494][839]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.45:550][840]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:550][840]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.45:607][841]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:607][841]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.45:612][841]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:612][841]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.45:670][842]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:731][843]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:789][844]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:792][844]LogBlueprintUserMessages: [chargeEnemy13_77] dealt dmg from charger
+[2017.05.19-07.52.45:792][844]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:852][845]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:912][846]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.45:971][847]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:029][848]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:033][848]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:091][849]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:153][850]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:213][851]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:272][852]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:276][852]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:336][853]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:400][854]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:458][855]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:461][855]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:524][856]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:580][857]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:638][858]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:642][858]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:702][859]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:763][860]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:822][861]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:826][861]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.46:882][862]LogBlueprintUserMessages: [chargeEnemy13_77] dealt dmg from charger
+[2017.05.19-07.52.47:061][865]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:061][865]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.47:065][865]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:130][866]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:193][867]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:252][868]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:312][869]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:372][870]LogBlueprintUserMessages: [chargeEnemy13_77] dealt dmg from charger
+[2017.05.19-07.52.47:372][870]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:433][871]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:677][875]LogBlueprintUserMessages: [chargeEnemy13_77] dealt dmg from charger
+[2017.05.19-07.52.47:737][876]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:741][876]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:801][877]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:862][878]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:920][879]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.47:987][880]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:040][881]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:103][882]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:347][886]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:351][886]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:404][887]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:464][888]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:527][889]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:587][890]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:641][891]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:701][892]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.48:996][897]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:000][897]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:059][898]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:121][899]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:174][900]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:232][901]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:292][902]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:353][903]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:798][911]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:801][911]LogBlueprintUserMessages: [chargeEnemy12_38] dealt dmg from charger
+[2017.05.19-07.52.49:802][911]LogBlueprintUserMessages: [chargeEnemy5_72] dealt dmg from charger
+[2017.05.19-07.52.49:802][911]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:861][912]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:919][913]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.49:979][914]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:033][915]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:093][916]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:153][917]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:684][926]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:688][926]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:748][927]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:811][928]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:864][929]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:920][930]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:924][930]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.50:983][931]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:043][932]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:101][933]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:104][933]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:161][934]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:220][935]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:279][936]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:338][937]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:341][937]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:389][938]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:441][939]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.51:489][940]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:341][957]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:343][957]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:391][958]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:443][959]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:498][960]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:541][961]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:544][961]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:597][962]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:645][963]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:699][964]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:745][965]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:748][965]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:802][966]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:851][967]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:902][968]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:905][968]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.52:952][969]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:006][970]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:054][971]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:105][972]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:108][972]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:306][976]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:310][976]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:359][977]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:412][978]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:461][979]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:464][979]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:510][980]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:566][981]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:613][982]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:663][983]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:666][983]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:924][988]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:927][988]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.53:987][989]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:046][990]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:104][991]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:108][991]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:166][992]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:222][993]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:277][994]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:282][994]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:507][998]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:512][998]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:569][999]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:624][  0]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:681][  1]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:685][  1]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:743][  2]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:802][  3]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:865][  4]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:922][  5]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:926][  5]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.54:980][  6]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:039][  7]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:096][  8]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:099][  8]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:158][  9]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:212][ 10]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:273][ 11]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:329][ 12]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:332][ 12]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:391][ 13]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:444][ 14]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:502][ 15]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:505][ 15]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:567][ 16]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:568][ 16]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.55:620][ 17]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:620][ 17]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.55:680][ 18]LogBlueprintUserMessages: [chargeEnemy9_156] dealt dmg from charger
+[2017.05.19-07.52.55:680][ 18]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:733][ 19]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:735][ 19]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:795][ 20]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:855][ 21]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:900][ 22]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:904][ 22]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.55:956][ 23]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:004][ 24]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:058][ 25]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:106][ 26]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:155][ 27]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:158][ 27]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:213][ 28]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:268][ 29]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:327][ 30]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:330][ 30]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:391][ 31]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:450][ 32]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:506][ 33]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:506][ 33]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.56:562][ 34]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:562][ 34]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.56:565][ 34]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:741][ 37]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:745][ 37]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:797][ 38]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:857][ 39]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:915][ 40]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:919][ 40]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.56:978][ 41]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:032][ 42]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:091][ 43]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:149][ 44]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:152][ 44]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:205][ 45]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:266][ 46]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:322][ 47]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:326][ 47]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:386][ 48]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:445][ 49]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:499][ 50]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:550][ 51]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:553][ 51]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:600][ 52]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:646][ 53]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:699][ 54]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:747][ 55]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:751][ 55]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:798][ 56]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:851][ 57]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:898][ 58]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:940][ 59]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.57:944][ 59]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:146][ 63]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:149][ 63]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:202][ 64]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:249][ 65]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:294][ 66]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:297][ 66]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:350][ 67]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:397][ 68]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:448][ 69]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:495][ 70]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:546][ 71]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:550][ 71]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:748][ 75]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:751][ 75]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:798][ 76]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:852][ 77]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:905][ 78]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:949][ 79]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.58:952][ 79]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:005][ 80]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:053][ 81]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:107][ 82]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:107][ 82]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.52.59:305][ 86]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:309][ 86]LogBlueprintUserMessages: [chargeEnemy7_125] dealt dmg from charger
+[2017.05.19-07.52.59:309][ 86]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:356][ 87]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:409][ 88]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:457][ 89]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:505][ 90]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:510][ 90]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:557][ 91]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:611][ 92]LogBlueprintUserMessages: [chargeEnemy7_125] dealt dmg from charger
+[2017.05.19-07.52.59:611][ 92]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:659][ 93]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:709][ 94]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:712][ 94]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:765][ 95]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:813][ 96]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:866][ 97]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:913][ 98]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:917][ 98]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.52.59:969][ 99]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:016][100]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:070][101]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:115][102]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:119][102]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:171][103]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:220][104]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:273][105]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:318][106]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:321][106]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:375][107]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:422][108]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:477][109]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:526][110]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:530][110]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:576][111]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:625][112]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:677][113]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:726][114]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:730][114]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:777][115]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:824][116]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:876][117]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:926][118]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:931][118]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.00:975][119]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:032][120]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:078][121]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:124][122]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:128][122]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:180][123]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:233][124]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:282][125]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:283][125]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.53.01:333][126]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:333][126]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.53.01:336][126]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:336][126]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.53.01:385][127]LogBlueprintUserMessages: [chargeEnemy9_156] dealt dmg from charger
+[2017.05.19-07.53.01:385][127]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:439][128]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:490][129]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:494][129]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:542][130]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:597][131]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:645][132]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:645][132]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.53.01:693][133]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:693][133]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.53.01:744][134]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:744][134]LogBlueprintUserMessages: [Player_C_0] hit but wasn't tired
+[2017.05.19-07.53.01:749][134]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:802][135]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:851][136]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:903][137]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:906][137]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.01:955][138]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:010][139]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:065][140]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:114][141]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:166][142]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:170][142]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:219][143]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:274][144]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:327][145]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:374][146]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:377][146]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:432][147]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:482][148]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:537][149]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:589][150]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:592][150]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:640][151]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:690][152]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:745][153]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:798][154]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:802][154]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:851][155]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:905][156]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.02:961][157]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:007][158]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:011][158]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:065][159]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:114][160]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:169][161]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:215][162]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:218][162]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:273][163]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:328][164]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:377][165]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.03:380][165]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:225][181]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:227][181]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:278][182]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:332][183]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:380][184]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:434][185]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:439][185]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:498][186]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:560][187]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:621][188]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:675][189]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:678][189]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:745][190]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:801][191]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:865][192]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:926][193]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.04:983][194]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:049][195]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:287][199]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:291][199]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:347][200]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:415][201]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:471][202]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:539][203]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:596][204]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:658][205]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:717][206]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:721][206]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:785][207]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:847][208]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:909][209]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.05:964][210]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:025][211]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:028][211]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:091][212]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:454][218]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:459][218]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:519][219]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:581][220]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:644][221]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:704][222]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:761][223]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:820][224]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.06:824][224]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:252][231]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:256][231]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:318][232]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:380][233]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:442][234]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:506][235]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:563][236]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:622][237]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:625][237]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:992][243]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.07:996][243]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:057][244]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:119][245]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:181][246]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:239][247]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:307][248]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:369][249]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:547][252]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:552][252]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:612][253]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:674][254]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:737][255]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:798][256]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:857][257]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.08:917][258]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.19-07.53.10:010][276]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
