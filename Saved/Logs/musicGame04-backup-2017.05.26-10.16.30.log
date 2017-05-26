@@ -1,0 +1,947 @@
+﻿Log file open, 05/25/17 18:22:26
+LogInit:Display: Running engine for game: musicGame04
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(651100485) SRandInit(651100485).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.066314
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.25-08.52.27:134][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-08.52.27:134][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.25-08.52.27:148][  0]LogInit: Computer: XXXX-PC-X
+[2017.05.25-08.52.27:148][  0]LogInit: User: User
+[2017.05.25-08.52.27:148][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.05.25-08.52.27:148][  0]LogInit: High frequency timer resolution =2.533308 MHz
+[2017.05.25-08.52.27:149][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.05.25-08.52.27:149][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.25-08.52.27:149][  0]LogMemory: Process Physical Memory: 267.75 MB used, 267.75 MB peak
+[2017.05.25-08.52.27:149][  0]LogMemory: Process Virtual Memory: 262.66 MB used, 262.66 MB peak
+[2017.05.25-08.52.27:149][  0]LogMemory: Physical Memory: 2607.45 MB used,  9558.71 MB free, 12166.16 MB total
+[2017.05.25-08.52.27:149][  0]LogMemory: Virtual Memory: 698.49 MB used,  9558.71 MB free, 134217728.00 MB total
+[2017.05.25-08.52.27:171][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.05.25-08.52.27:827][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.25-08.52.27:830][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2017.05.25-08.52.27:830][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.05.25-08.52.27:831][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.25-08.52.27:831][  0]LogD3D11RHI:       0/0/6083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.25-08.52.27:831][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.25-08.52.27:835][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.25-08.52.27:835][  0]LogD3D11RHI:     GPU DeviceId: 0x166 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.25-08.52.27:835][  0]LogWindows: EnumDisplayDevices:
+[2017.05.25-08.52.27:835][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2017.05.25-08.52.27:835][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.05.25-08.52.27:835][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.05.25-08.52.27:835][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.05.25-08.52.27:835][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4000
+[2017.05.25-08.52.27:835][  0]LogD3D11RHI:   Driver Version: 10.18.10.4358 (internal:10.18.10.4358, unified:10.18.10.4358)
+[2017.05.25-08.52.27:835][  0]LogD3D11RHI:      Driver Date: 12-21-2015
+[2017.05.25-08.52.27:835][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2017.05.25-08.52.27:838][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.25-08.52.27:850][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.05.25-08.52.27:851][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/User/Documents/GitHub/superMusicGame/Intermediate/Shaders/WorkingDirectory/7932/).
+[2017.05.25-08.52.27:851][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/DDA6B69A4E8BF242A028A2BF7D35047D/'.
+[2017.05.25-08.52.27:851][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.25-08.52.29:053][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.25-08.52.29:120][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.25-08.52.29:187][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.25-08.52.29:255][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.25-08.52.29:323][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.25-08.52.29:394][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.25-08.52.29:461][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.25-08.52.29:530][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.25-08.52.29:586][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.25-08.52.29:653][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.25-08.52.29:722][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.25-08.52.29:788][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.25-08.52.29:853][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.25-08.52.29:920][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.25-08.52.29:986][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.25-08.52.30:118][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.25-08.52.30:118][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.25-08.52.30:165][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.25-08.52.30:269][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.25-08.52.30:313][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.25-08.52.30:379][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.25-08.52.30:445][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.25-08.52.30:510][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.25-08.52.30:577][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.25-08.52.30:577][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.25-08.52.31:071][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.25-08.52.31:128][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.05.25-08.52.31:128][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.05.25-08.52.31:128][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/GitHub/superMusicGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.25-08.52.31:128][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.25-08.52.31:128][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/GitHub/superMusicGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.25-08.52.31:128][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.25-08.52.31:146][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.25-08.52.31:159][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.25-08.52.31:419][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-08.52.31:423][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.25-08.52.31:660][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.25-08.52.31:713][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.25-08.52.31:771][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.25-08.52.31:771][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.25-08.52.31:771][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.25-08.52.32:424][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: musicgame04, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2475016038
+[2017.05.25-08.52.32:487][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.05.25-08.52.32:559][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.040801 seconds
+[2017.05.25-08.52.32:565][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.05.25-08.52.32:565][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.05.25-08.52.32:565][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.25-08.52.32:657][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.25-08.52.33:772][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.25-08.52.33:772][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-08.52.33:772][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-08.52.34:774][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.25-08.52.34:819][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.25-08.52.35:231][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.25-08.52.35:699][  0]SourceControl: Info Source control is disabled
+[2017.05.25-08.52.35:700][  0]SourceControl: Info Source control is disabled
+[2017.05.25-08.52.35:760][  0]SourceControl: Info Source control is disabled
+[2017.05.25-08.52.35:815][  0]SourceControl: Info Source control is disabled
+[2017.05.25-08.52.37:344][  0]LogEngine: Initializing Engine...
+[2017.05.25-08.52.37:344][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.25-08.52.37:630][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.25-08.52.37:639][  0]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-08.52.37:668][  0]LogInit: FAudioDevice initialized.
+[2017.05.25-08.52.37:702][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.05.25-08.52.37:711][  0]LogInit: Texture streaming: Enabled
+[2017.05.25-08.52.37:943][  0]LogInit: Transaction tracking system initialized
+[2017.05.25-08.52.38:380][  0]BlueprintLog: New page: Editor Load
+[2017.05.25-08.52.39:490][  0]LocalizationService: Info Localization service is disabled
+[2017.05.25-08.52.40:299][  0]LogConsoleResponse:Display: 
+[2017.05.25-08.52.40:469][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.25-08.52.40:469][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.25-08.52.41:604][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/superMusicGame/Content/' took 0.02s
+[2017.05.25-08.52.41:661][  0]SourceControl: Info Source control is disabled
+[2017.05.25-08.52.41:661][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.25-08.52.41:661][  0]LightingResults: New page: Lighting Build
+[2017.05.25-08.52.41:712][  0]MapCheck: New page: Map Check
+[2017.05.25-08.52.41:712][  0]LightingResults: New page: Lighting Build
+[2017.05.25-08.52.41:983][  0]LogBlueprint:Warning: [enemy] 'LastMovement' variable not found. Base class was probably changed.
+[2017.05.25-08.52.41:983][  0]LogBlueprint:Warning: [enemy] 'LastMovement' variable not found. Base class was probably changed.
+[2017.05.25-08.52.41:984][  0]LogBlueprint:Warning: [enemy] 'Sprite' variable not found. Base class was probably changed.
+[2017.05.25-08.52.41:984][  0]LogBlueprint:Warning: [enemy] 'LastMovement' variable not found. Base class was probably changed.
+[2017.05.25-08.52.41:984][  0]LogBlueprint:Warning: [enemy] 'Atacked' variable not found. Base class was probably changed.
+[2017.05.25-08.52.41:984][  0]LogBlueprint:Warning: [enemy] 'LastMovement' variable not found. Base class was probably changed.
+[2017.05.25-08.52.42:958][  0]LogAIModule: Creating AISystem for world Level01
+[2017.05.25-08.52.43:088][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.25-08.52.43:089][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.25-08.52.43:154][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.534ms to complete.
+[2017.05.25-08.52.43:154][  0]LogFileHelpers: Loading map 'Level01' took 1.493
+[2017.05.25-08.52.43:219][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.25-08.52.43:342][  0]LogCollectionManager: Loaded 0 collections in 0.001727 seconds
+[2017.05.25-08.52.43:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/superMusicGame/Saved/Collections/' took 0.01s
+[2017.05.25-08.52.43:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/superMusicGame/Content/Developers/User/Collections/' took 0.01s
+[2017.05.25-08.52.43:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/superMusicGame/Content/Collections/' took 0.01s
+[2017.05.25-08.52.43:466][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.25-08.52.43:477][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2190 classes and 428 folders.
+[2017.05.25-08.52.43:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.25-08.52.43:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.25-08.52.43:530][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2017.05.25-08.52.43:610][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.25-08.52.43:654][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.05.25-08.52.43:709][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.25-08.52.43:820][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.25-08.52.43:825][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.25-08.52.43:903][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.05.25-08.52.43:903][  0]LogLoad: (Engine Initialization) Total time: 21.15 seconds
+[2017.05.25-08.52.43:903][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.37 seconds
+[2017.05.25-08.52.43:903][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.25-08.52.43:921][  0]LogOcInput: OculusInput pre-init called
+[2017.05.25-08.52.43:963][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.25-08.52.44:114][  0]LogRenderer: Reallocating scene render targets to support 908x216 NumSamples 1 (Frame:2).
+[2017.05.25-08.52.44:403][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/User/Documents/GitHub/superMusicGame/Content/' took 0.47s
+[2017.05.25-08.52.44:424][  1]LogAssetRegistry: Asset discovery search completed in 11.9589 seconds
+[2017.05.25-08.52.44:424][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.05.25-08.52.44:424][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2017.05.25-08.52.53:208][323]LogEnum:Warning: Enum name collision: 'ChargeEnum::NewEnumerator0' is in both '/Game/blueprints/ChargeEnum.ChargeEnum' and '/Game/Enums/ChargeEnum.ChargeEnum'
+[2017.05.25-08.52.53:208][323]LogEnum:Warning: Enum name collision: 'ChargeEnum::NewEnumerator1' is in both '/Game/blueprints/ChargeEnum.ChargeEnum' and '/Game/Enums/ChargeEnum.ChargeEnum'
+[2017.05.25-08.52.53:208][323]LogEnum:Warning: Enum name collision: 'ChargeEnum::NewEnumerator2' is in both '/Game/blueprints/ChargeEnum.ChargeEnum' and '/Game/Enums/ChargeEnum.ChargeEnum'
+[2017.05.25-08.52.53:208][323]LogEnum:Warning: Enum name collision: 'ChargeEnum::ChargeEnum_MAX' is in both '/Game/blueprints/ChargeEnum.ChargeEnum' and '/Game/Enums/ChargeEnum.ChargeEnum'
+[2017.05.25-08.52.53:208][323]LogEnum:Warning: Enum name collision: 'ChargeEnum::NewEnumerator0' is in both '/Game/blueprints/ChargeEnum.ChargeEnum' and '/Game/Enums/ChargeEnum.ChargeEnum'
+[2017.05.25-08.52.53:208][323]LogEnum:Warning: Enum name collision: 'ChargeEnum::NewEnumerator1' is in both '/Game/blueprints/ChargeEnum.ChargeEnum' and '/Game/Enums/ChargeEnum.ChargeEnum'
+[2017.05.25-08.52.53:208][323]LogEnum:Warning: Enum name collision: 'ChargeEnum::NewEnumerator2' is in both '/Game/blueprints/ChargeEnum.ChargeEnum' and '/Game/Enums/ChargeEnum.ChargeEnum'
+[2017.05.25-08.52.53:210][323]LogEnum:Warning: Enum name collision: 'Movement::NewEnumerator0' is in both '/Game/blueprints/Movement.Movement' and '/Game/Enums/Movement.Movement'
+[2017.05.25-08.52.53:210][323]LogEnum:Warning: Enum name collision: 'Movement::NewEnumerator1' is in both '/Game/blueprints/Movement.Movement' and '/Game/Enums/Movement.Movement'
+[2017.05.25-08.52.53:210][323]LogEnum:Warning: Enum name collision: 'Movement::NewEnumerator2' is in both '/Game/blueprints/Movement.Movement' and '/Game/Enums/Movement.Movement'
+[2017.05.25-08.52.53:210][323]LogEnum:Warning: Enum name collision: 'Movement::NewEnumerator3' is in both '/Game/blueprints/Movement.Movement' and '/Game/Enums/Movement.Movement'
+[2017.05.25-08.52.53:210][323]LogEnum:Warning: Enum name collision: 'Movement::Movement_MAX' is in both '/Game/blueprints/Movement.Movement' and '/Game/Enums/Movement.Movement'
+[2017.05.25-08.52.53:210][323]LogEnum:Warning: Enum name collision: 'Movement::NewEnumerator0' is in both '/Game/blueprints/Movement.Movement' and '/Game/Enums/Movement.Movement'
+[2017.05.25-08.52.53:210][323]LogEnum:Warning: Enum name collision: 'Movement::NewEnumerator1' is in both '/Game/blueprints/Movement.Movement' and '/Game/Enums/Movement.Movement'
+[2017.05.25-08.52.53:210][323]LogEnum:Warning: Enum name collision: 'Movement::NewEnumerator2' is in both '/Game/blueprints/Movement.Movement' and '/Game/Enums/Movement.Movement'
+[2017.05.25-08.52.53:210][323]LogEnum:Warning: Enum name collision: 'Movement::NewEnumerator3' is in both '/Game/blueprints/Movement.Movement' and '/Game/Enums/Movement.Movement'
+[2017.05.25-08.52.53:211][323]LogEnum:Warning: Enum name collision: 'ComboEnum::NewEnumerator0' is in both '/Game/Enums/ComboEnum.ComboEnum' and '/Game/blueprints/ComboEnum.ComboEnum'
+[2017.05.25-08.52.53:211][323]LogEnum:Warning: Enum name collision: 'ComboEnum::NewEnumerator1' is in both '/Game/Enums/ComboEnum.ComboEnum' and '/Game/blueprints/ComboEnum.ComboEnum'
+[2017.05.25-08.52.53:211][323]LogEnum:Warning: Enum name collision: 'ComboEnum::NewEnumerator2' is in both '/Game/Enums/ComboEnum.ComboEnum' and '/Game/blueprints/ComboEnum.ComboEnum'
+[2017.05.25-08.52.53:211][323]LogEnum:Warning: Enum name collision: 'ComboEnum::NewEnumerator3' is in both '/Game/Enums/ComboEnum.ComboEnum' and '/Game/blueprints/ComboEnum.ComboEnum'
+[2017.05.25-08.52.53:211][323]LogEnum:Warning: Enum name collision: 'ComboEnum::ComboEnum_MAX' is in both '/Game/Enums/ComboEnum.ComboEnum' and '/Game/blueprints/ComboEnum.ComboEnum'
+[2017.05.25-08.52.53:212][323]LogEnum:Warning: Enum name collision: 'ComboEnum::NewEnumerator0' is in both '/Game/Enums/ComboEnum.ComboEnum' and '/Game/blueprints/ComboEnum.ComboEnum'
+[2017.05.25-08.52.53:212][323]LogEnum:Warning: Enum name collision: 'ComboEnum::NewEnumerator1' is in both '/Game/Enums/ComboEnum.ComboEnum' and '/Game/blueprints/ComboEnum.ComboEnum'
+[2017.05.25-08.52.53:212][323]LogEnum:Warning: Enum name collision: 'ComboEnum::NewEnumerator2' is in both '/Game/Enums/ComboEnum.ComboEnum' and '/Game/blueprints/ComboEnum.ComboEnum'
+[2017.05.25-08.52.53:212][323]LogEnum:Warning: Enum name collision: 'ComboEnum::NewEnumerator3' is in both '/Game/Enums/ComboEnum.ComboEnum' and '/Game/blueprints/ComboEnum.ComboEnum'
+[2017.05.25-08.52.53:345][323]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 111 classes and 0 folders.
+[2017.05.25-08.53.02:340][643]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.25-08.53.02:401][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-08.53.02:401][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-08.53.02:401][643]PIE: New page: PIE session: Level01 (26 May 2017 3:53:02 am)
+[2017.05.25-08.53.02:402][643]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01
+[2017.05.25-08.53.02:427][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024980s)
+[2017.05.25-08.53.02:427][643]LogAIModule: Creating AISystem for world Level01
+[2017.05.25-08.53.02:428][643]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2017.05.25-08.53.02:428][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01.Level01 to /Game/UEDPIE_0_Level01.Level01 (0.026427s)
+[2017.05.25-08.53.02:509][643]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-08.53.02:521][643]LogInit: FAudioDevice initialized.
+[2017.05.25-08.53.02:574][643]LogLoad: Game class is 'BasicLevelMode_C'
+[2017.05.25-08.53.02:744][643]LogCharacterMovement:Error: CharacterMovement owned by NewPaperTileMap_2 must update a component owned by a Character
+[2017.05.25-08.53.02:751][643]LogWorld: Bringing World /Game/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2017.05.25-18.23.02
+[2017.05.25-08.53.02:759][643]LogCharacterMovement:Error: CharacterMovement owned by NewPaperTileMap_2 must update a component owned by a Character
+[2017.05.25-08.53.02:916][643]PIE:Warning: Warning Mobility of woodBlock_19 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:917][643]PIE:Warning: Warning Mobility of woodBlock2 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:917][643]PIE:Warning: Warning Mobility of woodBlock3_201 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:917][643]PIE:Warning: Warning Mobility of woodBlock4 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:917][643]PIE:Warning: Warning Mobility of woodBlock5 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:917][643]PIE:Warning: Warning Mobility of woodBlock6 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:918][643]PIE:Warning: Warning Mobility of woodBlock7 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:918][643]PIE:Warning: Warning Mobility of woodBlock10 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:918][643]PIE:Warning: Warning Mobility of woodBlock11 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:919][643]PIE:Warning: Warning Mobility of woodBlock12 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:919][643]PIE:Warning: Warning Mobility of woodBlock13 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:919][643]PIE:Warning: Warning Mobility of woodBlock14 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:919][643]PIE:Warning: Warning Mobility of woodBlock15 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:919][643]PIE:Warning: Warning Mobility of woodBlock16 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:920][643]PIE:Warning: Warning Mobility of woodBlock19 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:920][643]PIE:Warning: Warning Mobility of woodBlock20 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:920][643]PIE:Warning: Warning Mobility of woodBlock22 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:920][643]PIE:Warning: Warning Mobility of woodBlock23 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:921][643]PIE:Warning: Warning Mobility of woodBlock24 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:921][643]PIE:Warning: Warning Mobility of woodBlock29 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:921][643]PIE:Warning: Warning Mobility of woodBlock30 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:922][643]PIE:Warning: Warning Mobility of woodBlock31 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:922][643]PIE:Warning: Warning Mobility of woodBlock32 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:922][643]PIE:Warning: Warning Mobility of woodBlock33 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:922][643]PIE:Warning: Warning Mobility of woodBlock34 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:922][643]PIE:Warning: Warning Mobility of woodBlock35 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:922][643]PIE:Warning: Warning Mobility of woodBlock36 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:923][643]PIE:Warning: Warning Mobility of woodBlock37 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:923][643]PIE:Warning: Warning Mobility of woodBlock38 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:923][643]PIE:Warning: Warning Mobility of woodBlock39 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:923][643]PIE:Warning: Warning Mobility of woodBlock40 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:923][643]PIE:Warning: Warning Mobility of woodBlock41 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:924][643]PIE:Warning: Warning Mobility of woodBlock42 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:924][643]PIE:Warning: Warning Mobility of woodBlock43 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:924][643]PIE:Warning: Warning Mobility of woodBlock44 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:924][643]PIE:Warning: Warning Mobility of woodBlock45 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:924][643]PIE:Warning: Warning Mobility of woodBlock46 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:924][643]PIE:Warning: Warning Mobility of woodBlock47 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:925][643]PIE:Warning: Warning Mobility of woodBlock48 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:925][643]PIE:Warning: Warning Mobility of woodBlock49 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:930][643]PIE:Warning: Warning Mobility of gainFireTrigger_40 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:931][643]PIE:Warning: Warning Mobility of gainFireTrigger2 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:931][643]PIE:Warning: Warning Mobility of wallPiece_46 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.02:931][643]LogWorld: Bringing up level for play took: 0.353569
+[2017.05.25-08.53.02:993][643]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.05.25-08.53.02:993][643]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-08.53.02:993][643]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-08.53.02:993][643]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-08.53.02:998][643]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.25-08.53.03:002][643]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-08.53.03:008][643]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level01 1.451
+[2017.05.25-08.53.03:009][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-08.53.03:010][643]PIE:Warning: Warning Mobility of woodBlock8 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:010][643]PIE:Warning: Warning Mobility of woodBlock9_44 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:010][643]PIE:Warning: Warning Mobility of woodBlock17 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:010][643]PIE:Warning: Warning Mobility of woodBlock18 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:010][643]PIE:Warning: Warning Mobility of woodBlock26 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:010][643]PIE:Warning: Warning Mobility of woodBlock27 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock_19 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock2 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock3_201 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock4 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock5 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock6 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock7 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock10 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock11 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock12 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock13 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock14 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock15 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock16 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock19 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock20 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock21 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock22 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock23 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock24 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:058][643]PIE:Warning: Warning Mobility of woodBlock25 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock29 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock30 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock31 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock32 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock33 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock34 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock35 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock36 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock37 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock38 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock39 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock40 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock41 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock42 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock43 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock44 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock45 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock46 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock47 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock48 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of woodBlock49 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of wallPiece_46 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of gainFireTrigger_40 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:059][643]PIE:Warning: Warning Mobility of gainFireTrigger2 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.03:105][643]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:408).
+[2017.05.25-08.53.04:471][659]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.04:485][659]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.04:542][660]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.04:620][661]LogBlueprintUserMessages: [chargeEnemy_C_0] is alive
+[2017.05.25-08.53.04:621][661]LogBlueprintUserMessages: [chargeEnemy_C_1] is alive
+[2017.05.25-08.53.04:623][661]LogBlueprintUserMessages: [chargeEnemy_C_2] is alive
+[2017.05.25-08.53.04:623][661]LogBlueprintUserMessages: [chargeEnemy_C_3] is alive
+[2017.05.25-08.53.04:624][661]LogBlueprintUserMessages: [chargeEnemy_C_4] is alive
+[2017.05.25-08.53.04:625][661]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.04:683][662]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.04:734][663]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.04:788][664]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.04:842][665]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.07:903][715]LogBlueprintUserMessages: [gainFireTrigger_40] gained fireball spell
+[2017.05.25-08.53.09:042][732]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.09:053][732]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.09:129][733]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.09:193][734]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.09:262][735]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.09:330][736]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.09:392][737]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.09:788][743]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Inputs of length 1!
+[2017.05.25-08.53.09:930][745]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array Inputs of length 2!
+[2017.05.25-08.53.10:062][747]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array Inputs of length 3!
+[2017.05.25-08.53.10:341][751]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array Inputs of length 4!
+[2017.05.25-08.53.13:585][798]LogBlueprintUserMessages: [Player_C_0] 1
+[2017.05.25-08.53.13:586][798]LogBlueprintUserMessages: [Player_C_0] FIREBALL
+[2017.05.25-08.53.13:870][802]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array Inputs of length 1!
+[2017.05.25-08.53.14:151][806]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array Inputs of length 2!
+[2017.05.25-08.53.16:194][835]LogBlueprintUserMessages: [chargeEnemy_C_5] is alive
+[2017.05.25-08.53.16:195][835]LogBlueprintUserMessages: [chargeEnemy_C_6] is alive
+[2017.05.25-08.53.16:196][835]LogBlueprintUserMessages: [chargeEnemy_C_7] is alive
+[2017.05.25-08.53.16:197][835]LogBlueprintUserMessages: [chargeEnemy_C_8] is alive
+[2017.05.25-08.53.16:198][835]LogBlueprintUserMessages: [chargeEnemy_C_9] is alive
+[2017.05.25-08.53.16:200][835]LogBlueprintUserMessages: [chargeEnemy_C_10] is alive
+[2017.05.25-08.53.16:202][835]LogBlueprintUserMessages: [chargeEnemy_C_11] is alive
+[2017.05.25-08.53.16:203][835]LogBlueprintUserMessages: [chargeEnemy_C_12] is alive
+[2017.05.25-08.53.16:205][835]LogBlueprintUserMessages: [chargeEnemy_C_13] is alive
+[2017.05.25-08.53.16:206][835]LogBlueprintUserMessages: [chargeEnemy_C_14] is alive
+[2017.05.25-08.53.16:207][835]PIE:Warning: Warning Mobility of noBreakwallPiece_C_0 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.53.16:209][835]PIE:Warning: Warning Mobility of noBreakwallPiece_C_0 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.53.17:951][859]LogBlueprintUserMessages: [enemySpell_C_100] get fireballed kiddo
+[2017.05.25-08.53.18:113][861]LogBlueprintUserMessages: [enemySpell_C_79] get fireballed kiddo
+[2017.05.25-08.53.18:306][864]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.18:322][864]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.18:404][865]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.18:453][866]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.18:456][866]LogBlueprintUserMessages: [enemySpell_C_79] get fireballed kiddo
+[2017.05.25-08.53.18:473][866]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.18:551][867]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.18:618][868]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.18:679][869]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.18:696][869]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.53.19:068][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-08.53.19:443][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-08.54.52:764][322]BlueprintLog: New page: Compile Player
+[2017.05.25-08.54.54:295][372]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.25-08.54.55:341][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.25-08.55.17:031][564]BlueprintLog: New page: Compile BasicLevelMode
+[2017.05.25-08.55.17:588][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BasicLevelMode" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Blueprints/BasicLevelMode.uasset" SILENT=true
+[2017.05.25-08.55.17:644][588]LogSavePackage: Save=19.60ms
+[2017.05.25-08.55.17:644][588]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/BasicLevelModeE71D1BE94FB5CAE1A7AD088627622A7F.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Blueprints/BasicLevelMode.uasset'
+[2017.05.25-08.55.17:649][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Blueprints/BasicLevelMode.uasset
+[2017.05.25-08.55.18:870][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-08.55.19:064][661]LogSavePackage: Save=164.93ms
+[2017.05.25-08.55.19:064][661]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/PlayerF68478564C38111AB68D749229C8DB2D.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-08.55.19:067][661]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-08.55.55:946][763]BlueprintLog: New page: Compile BasicLevelMode
+[2017.05.25-08.55.56:395][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BasicLevelMode" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Blueprints/BasicLevelMode.uasset" SILENT=true
+[2017.05.25-08.55.56:439][781]LogSavePackage: Save=19.31ms
+[2017.05.25-08.55.56:439][781]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/BasicLevelMode1002FB1942B4D907545299BB5AC6AB89.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Blueprints/BasicLevelMode.uasset'
+[2017.05.25-08.55.56:443][781]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Blueprints/BasicLevelMode.uasset
+[2017.05.25-08.56.08:688][497]BlueprintLog: New page: Compile Player
+[2017.05.25-08.56.09:283][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-08.56.09:464][498]LogSavePackage: Save=158.86ms
+[2017.05.25-08.56.09:464][498]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/PlayerA53D5EC54619DEC18FE615A081D312FC.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-08.56.09:467][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-08.57.40:140][768]BlueprintLog: New page: Compile BasicLevelMode
+[2017.05.25-08.57.40:771][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BasicLevelMode" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Blueprints/BasicLevelMode.uasset" SILENT=true
+[2017.05.25-08.57.40:822][796]LogSavePackage: Save=21.70ms
+[2017.05.25-08.57.40:822][796]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/BasicLevelMode0C6E0EA84C441A1E5EA5D2AF1089644A.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Blueprints/BasicLevelMode.uasset'
+[2017.05.25-08.57.40:826][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Blueprints/BasicLevelMode.uasset
+[2017.05.25-08.58.25:331][398]BlueprintLog: New page: Compile Player
+[2017.05.25-08.58.25:773][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-08.58.25:958][398]LogSavePackage: Save=161.25ms
+[2017.05.25-08.58.25:958][398]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/PlayerF8FE6108440063C2D098A08E9AB20632.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-08.58.25:962][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-08.58.27:238][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-08.58.27:421][467]LogSavePackage: Save=161.24ms
+[2017.05.25-08.58.27:421][467]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/PlayerB648992240A384AC5F5CE89F2D62341B.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-08.58.27:425][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-08.58.29:501][560]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.25-08.58.29:561][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-08.58.29:561][560]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.25-08.58.29:561][560]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.05.25-08.58.30:148][560]LogPlayLevel: PlayLevel: Blueprint regeneration took 587 ms (1 blueprints)
+[2017.05.25-08.58.30:149][560]PIE: New page: PIE session: Level01 (26 May 2017 3:58:30 am)
+[2017.05.25-08.58.30:149][560]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01
+[2017.05.25-08.58.30:172][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023770s)
+[2017.05.25-08.58.30:173][560]LogAIModule: Creating AISystem for world Level01
+[2017.05.25-08.58.30:173][560]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2017.05.25-08.58.30:174][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01.Level01 to /Game/UEDPIE_0_Level01.Level01 (0.024929s)
+[2017.05.25-08.58.30:230][560]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-08.58.30:242][560]LogInit: FAudioDevice initialized.
+[2017.05.25-08.58.30:283][560]LogLoad: Game class is 'BasicLevelMode_C'
+[2017.05.25-08.58.30:368][560]LogCharacterMovement:Error: CharacterMovement owned by NewPaperTileMap_2 must update a component owned by a Character
+[2017.05.25-08.58.30:375][560]LogWorld: Bringing World /Game/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2017.05.25-18.28.30
+[2017.05.25-08.58.30:381][560]LogCharacterMovement:Error: CharacterMovement owned by NewPaperTileMap_2 must update a component owned by a Character
+[2017.05.25-08.58.30:516][560]PIE:Warning: Warning Mobility of woodBlock_19 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:516][560]PIE:Warning: Warning Mobility of woodBlock2 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:517][560]PIE:Warning: Warning Mobility of woodBlock3_201 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:517][560]PIE:Warning: Warning Mobility of woodBlock4 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:517][560]PIE:Warning: Warning Mobility of woodBlock5 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:517][560]PIE:Warning: Warning Mobility of woodBlock6 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:517][560]PIE:Warning: Warning Mobility of woodBlock7 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:518][560]PIE:Warning: Warning Mobility of woodBlock10 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:518][560]PIE:Warning: Warning Mobility of woodBlock11 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:518][560]PIE:Warning: Warning Mobility of woodBlock12 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:518][560]PIE:Warning: Warning Mobility of woodBlock13 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:518][560]PIE:Warning: Warning Mobility of woodBlock14 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:519][560]PIE:Warning: Warning Mobility of woodBlock15 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:519][560]PIE:Warning: Warning Mobility of woodBlock16 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:519][560]PIE:Warning: Warning Mobility of woodBlock19 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:520][560]PIE:Warning: Warning Mobility of woodBlock20 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:520][560]PIE:Warning: Warning Mobility of woodBlock22 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:520][560]PIE:Warning: Warning Mobility of woodBlock23 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:520][560]PIE:Warning: Warning Mobility of woodBlock24 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:521][560]PIE:Warning: Warning Mobility of woodBlock29 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:521][560]PIE:Warning: Warning Mobility of woodBlock30 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:521][560]PIE:Warning: Warning Mobility of woodBlock31 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:521][560]PIE:Warning: Warning Mobility of woodBlock32 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:522][560]PIE:Warning: Warning Mobility of woodBlock33 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:522][560]PIE:Warning: Warning Mobility of woodBlock34 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:522][560]PIE:Warning: Warning Mobility of woodBlock35 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:522][560]PIE:Warning: Warning Mobility of woodBlock36 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:522][560]PIE:Warning: Warning Mobility of woodBlock37 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:522][560]PIE:Warning: Warning Mobility of woodBlock38 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:523][560]PIE:Warning: Warning Mobility of woodBlock39 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:523][560]PIE:Warning: Warning Mobility of woodBlock40 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:523][560]PIE:Warning: Warning Mobility of woodBlock41 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:523][560]PIE:Warning: Warning Mobility of woodBlock42 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:523][560]PIE:Warning: Warning Mobility of woodBlock43 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:524][560]PIE:Warning: Warning Mobility of woodBlock44 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:524][560]PIE:Warning: Warning Mobility of woodBlock45 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:524][560]PIE:Warning: Warning Mobility of woodBlock46 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:524][560]PIE:Warning: Warning Mobility of woodBlock47 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:524][560]PIE:Warning: Warning Mobility of woodBlock48 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:525][560]PIE:Warning: Warning Mobility of woodBlock49 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:528][560]PIE:Warning: Warning Mobility of gainFireTrigger_40 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:529][560]PIE:Warning: Warning Mobility of gainFireTrigger2 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:529][560]PIE:Warning: Warning Mobility of wallPiece_46 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-08.58.30:529][560]LogWorld: Bringing up level for play took: 0.245997
+[2017.05.25-08.58.30:530][560]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-08.58.30:530][560]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-08.58.30:530][560]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-08.58.30:531][560]LogBlueprintUserMessages: [Player_C_0] 0
+[2017.05.25-08.58.30:533][560]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.25-08.58.30:534][560]LogBlueprintUserMessages: [Player_C_1] 0
+[2017.05.25-08.58.30:535][560]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-08.58.30:541][560]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level01 0.984
+[2017.05.25-08.58.30:541][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-08.58.30:542][560]PIE:Warning: Warning Mobility of woodBlock8 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:543][560]PIE:Warning: Warning Mobility of woodBlock9_44 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:543][560]PIE:Warning: Warning Mobility of woodBlock17 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:543][560]PIE:Warning: Warning Mobility of woodBlock18 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:543][560]PIE:Warning: Warning Mobility of woodBlock26 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:543][560]PIE:Warning: Warning Mobility of woodBlock27 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock49 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock48 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock47 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock46 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock45 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock44 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock43 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock42 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock41 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock40 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock39 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock38 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock37 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock36 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock35 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock34 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock33 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock32 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock31 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock30 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock29 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:584][560]PIE:Warning: Warning Mobility of woodBlock25 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock24 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock23 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock22 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock21 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock20 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock19 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock16 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock15 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock14 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock13 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock12 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock11 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock10 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock7 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock6 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock5 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock4 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock3_201 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock2 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of woodBlock_19 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of wallPiece_46 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of gainFireTrigger2 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.30:585][560]PIE:Warning: Warning Mobility of gainFireTrigger_40 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-08.58.33:563][625]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.33:571][625]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.33:618][626]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.33:663][627]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.33:713][628]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.33:767][629]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.33:803][630]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.33:845][631]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.33:890][632]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.33:933][633]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:386][643]LogBlueprintUserMessages: [chargeEnemy_C_0] is alive
+[2017.05.25-08.58.34:387][643]LogBlueprintUserMessages: [chargeEnemy_C_1] is alive
+[2017.05.25-08.58.34:388][643]LogBlueprintUserMessages: [chargeEnemy_C_2] is alive
+[2017.05.25-08.58.34:389][643]LogBlueprintUserMessages: [chargeEnemy_C_3] is alive
+[2017.05.25-08.58.34:390][643]LogBlueprintUserMessages: [chargeEnemy_C_4] is alive
+[2017.05.25-08.58.34:514][646]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:526][646]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:571][647]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:615][648]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:661][649]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:697][650]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:715][650]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:760][651]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:804][652]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:851][653]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:891][654]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.34:900][654]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:103][658]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:114][658]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:165][659]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:222][660]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:261][661]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:274][661]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:331][662]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:381][663]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:437][664]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:476][665]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:488][665]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:692][669]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:709][669]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:758][670]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:811][671]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:861][672]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:906][673]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:917][673]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.35:978][674]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:023][675]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:076][676]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:120][677]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:131][677]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:182][678]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:239][679]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:289][680]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:331][681]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:344][681]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:398][682]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:448][683]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:500][684]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:702][688]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:719][688]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:771][689]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:821][690]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:873][691]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:925][692]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.36:981][693]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:032][694]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:087][695]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:182][697]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:191][697]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:253][698]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:312][699]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:356][700]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:397][701]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:408][701]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:461][702]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:512][703]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.37:567][704]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-08.58.38:271][717]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-08.58.38:610][717]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-08.58.42:990][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level01" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.25-08.58.43:507][855]LogSavePackage: Save=414.68ms
+[2017.05.25-08.58.43:507][855]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Level0194AC7D8B4FDFD0A96567E996BEC0E5DC.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Level01.umap'
+[2017.05.25-08.58.43:509][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Level01.umap
+[2017.05.25-08.58.43:576][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level01_BuiltData" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Level01_BuiltData.uasset" SILENT=true
+[2017.05.25-08.58.43:605][855]LogSavePackage: Save=4.54ms
+[2017.05.25-08.58.43:605][855]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Level01_BuiltDataBD32F49547AB7BCC055250B019C3E8B5.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Level01_BuiltData.uasset'
+[2017.05.25-08.58.43:607][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/Level01_BuiltData.uasset
+[2017.05.25-09.01.15:839][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-09.01.16:053][826]LogSavePackage: Save=173.88ms
+[2017.05.25-09.01.16:053][826]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Player0E9EEE624064E38625FF76A9DC2BF697.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-09.01.16:057][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-09.01.21:007][123]BlueprintLog: New page: Compile Player
+[2017.05.25-09.01.21:515][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-09.01.21:710][124]LogSavePackage: Save=169.95ms
+[2017.05.25-09.01.21:710][124]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Player5ED4E82C41E386DE4B8CF1A002F73E7A.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-09.01.21:712][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-09.01.23:344][181]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.25-09.01.23:396][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-09.01.23:396][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.25-09.01.23:396][181]PIE: New page: PIE session: Level01 (26 May 2017 4:01:23 am)
+[2017.05.25-09.01.23:397][181]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01
+[2017.05.25-09.01.23:422][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025610s)
+[2017.05.25-09.01.23:423][181]LogAIModule: Creating AISystem for world Level01
+[2017.05.25-09.01.23:423][181]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2017.05.25-09.01.23:424][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01.Level01 to /Game/UEDPIE_0_Level01.Level01 (0.027037s)
+[2017.05.25-09.01.23:485][181]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.25-09.01.23:499][181]LogInit: FAudioDevice initialized.
+[2017.05.25-09.01.23:538][181]LogLoad: Game class is 'BasicLevelMode_C'
+[2017.05.25-09.01.23:649][181]LogCharacterMovement:Error: CharacterMovement owned by NewPaperTileMap_2 must update a component owned by a Character
+[2017.05.25-09.01.23:657][181]LogWorld: Bringing World /Game/UEDPIE_0_Level01.Level01 up for play (max tick rate 60) at 2017.05.25-18.31.23
+[2017.05.25-09.01.23:666][181]LogCharacterMovement:Error: CharacterMovement owned by NewPaperTileMap_2 must update a component owned by a Character
+[2017.05.25-09.01.23:834][181]PIE:Warning: Warning Mobility of woodBlock_19 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:835][181]PIE:Warning: Warning Mobility of woodBlock2 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:835][181]PIE:Warning: Warning Mobility of woodBlock3_201 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:835][181]PIE:Warning: Warning Mobility of woodBlock4 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:835][181]PIE:Warning: Warning Mobility of woodBlock5 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:835][181]PIE:Warning: Warning Mobility of woodBlock6 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:835][181]PIE:Warning: Warning Mobility of woodBlock7 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:836][181]PIE:Warning: Warning Mobility of woodBlock10 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:836][181]PIE:Warning: Warning Mobility of woodBlock11 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:836][181]PIE:Warning: Warning Mobility of woodBlock12 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:836][181]PIE:Warning: Warning Mobility of woodBlock13 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:837][181]PIE:Warning: Warning Mobility of woodBlock14 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:837][181]PIE:Warning: Warning Mobility of woodBlock15 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:837][181]PIE:Warning: Warning Mobility of woodBlock16 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:837][181]PIE:Warning: Warning Mobility of woodBlock19 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:838][181]PIE:Warning: Warning Mobility of woodBlock20 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:838][181]PIE:Warning: Warning Mobility of woodBlock22 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:838][181]PIE:Warning: Warning Mobility of woodBlock23 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:838][181]PIE:Warning: Warning Mobility of woodBlock24 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:839][181]PIE:Warning: Warning Mobility of woodBlock29 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:839][181]PIE:Warning: Warning Mobility of woodBlock30 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:839][181]PIE:Warning: Warning Mobility of woodBlock31 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:839][181]PIE:Warning: Warning Mobility of woodBlock32 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:840][181]PIE:Warning: Warning Mobility of woodBlock33 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:840][181]PIE:Warning: Warning Mobility of woodBlock34 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:840][181]PIE:Warning: Warning Mobility of woodBlock35 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:840][181]PIE:Warning: Warning Mobility of woodBlock36 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:840][181]PIE:Warning: Warning Mobility of woodBlock37 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:840][181]PIE:Warning: Warning Mobility of woodBlock38 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:841][181]PIE:Warning: Warning Mobility of woodBlock39 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:841][181]PIE:Warning: Warning Mobility of woodBlock40 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:841][181]PIE:Warning: Warning Mobility of woodBlock41 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:841][181]PIE:Warning: Warning Mobility of woodBlock42 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:841][181]PIE:Warning: Warning Mobility of woodBlock43 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:842][181]PIE:Warning: Warning Mobility of woodBlock44 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:842][181]PIE:Warning: Warning Mobility of woodBlock45 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:842][181]PIE:Warning: Warning Mobility of woodBlock46 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:842][181]PIE:Warning: Warning Mobility of woodBlock47 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:843][181]PIE:Warning: Warning Mobility of woodBlock48 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:843][181]PIE:Warning: Warning Mobility of woodBlock49 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:846][181]PIE:Warning: Warning Mobility of gainFireTrigger_40 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:847][181]PIE:Warning: Warning Mobility of gainFireTrigger2 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:847][181]PIE:Warning: Warning Mobility of wallPiece_46 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2017.05.25-09.01.23:847][181]LogWorld: Bringing up level for play took: 0.308767
+[2017.05.25-09.01.23:848][181]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-09.01.23:848][181]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.25-09.01.23:848][181]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-09.01.23:849][181]LogBlueprintUserMessages: [Player_C_0] 0
+[2017.05.25-09.01.23:851][181]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.25-09.01.23:853][181]LogBlueprintUserMessages: [Player_C_1] 0
+[2017.05.25-09.01.23:854][181]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.25-09.01.23:858][181]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level01 0.301
+[2017.05.25-09.01.23:859][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-09.01.23:860][181]PIE:Warning: Warning Mobility of woodBlock8 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:860][181]PIE:Warning: Warning Mobility of woodBlock9_44 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:860][181]PIE:Warning: Warning Mobility of woodBlock17 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:860][181]PIE:Warning: Warning Mobility of woodBlock18 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:860][181]PIE:Warning: Warning Mobility of woodBlock26 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:860][181]PIE:Warning: Warning Mobility of woodBlock27 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:899][181]PIE:Warning: Warning Mobility of woodBlock49 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:899][181]PIE:Warning: Warning Mobility of woodBlock48 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:899][181]PIE:Warning: Warning Mobility of woodBlock47 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:899][181]PIE:Warning: Warning Mobility of woodBlock46 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:899][181]PIE:Warning: Warning Mobility of woodBlock45 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:899][181]PIE:Warning: Warning Mobility of woodBlock44 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:899][181]PIE:Warning: Warning Mobility of woodBlock43 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:899][181]PIE:Warning: Warning Mobility of woodBlock42 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock41 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock40 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock39 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock38 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock37 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock36 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock35 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock34 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock33 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock32 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock31 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock30 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock29 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock25 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock24 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock23 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock22 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock21 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock20 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock19 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock16 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock15 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock14 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock13 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:900][181]PIE:Warning: Warning Mobility of woodBlock12 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of woodBlock11 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of woodBlock10 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of woodBlock7 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of woodBlock6 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of woodBlock5 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of woodBlock4 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of woodBlock3_201 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of woodBlock2 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of woodBlock_19 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of wallPiece_46 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of gainFireTrigger2 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.23:901][181]PIE:Warning: Warning Mobility of gainFireTrigger_40 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2017.05.25-09.01.25:499][215]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.25:506][215]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.25:552][216]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.25:594][217]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.25:642][218]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.25:685][219]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.25:731][220]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.25:778][221]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.25:824][222]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.25:870][223]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:086][228]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:094][228]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:140][229]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:182][230]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:228][231]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:275][232]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:319][233]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:361][234]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:407][235]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:453][236]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:626][240]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:632][240]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:676][241]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:721][242]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:770][243]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:815][244]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:858][245]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:907][246]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:950][247]LogBlueprintUserMessages: [chargeEnemy_C_0] is alive
+[2017.05.25-09.01.26:951][247]LogBlueprintUserMessages: [chargeEnemy_C_1] is alive
+[2017.05.25-09.01.26:952][247]LogBlueprintUserMessages: [chargeEnemy_C_2] is alive
+[2017.05.25-09.01.26:952][247]LogBlueprintUserMessages: [chargeEnemy_C_3] is alive
+[2017.05.25-09.01.26:953][247]LogBlueprintUserMessages: [chargeEnemy_C_4] is alive
+[2017.05.25-09.01.26:954][247]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.26:996][248]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.27:348][256]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.27:356][256]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.27:401][257]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.27:450][258]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.27:494][259]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.27:537][260]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.27:585][261]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.27:630][262]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.27:672][263]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.27:717][264]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:292][277]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:303][277]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:346][278]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:389][279]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:433][280]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:478][281]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:524][282]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:568][283]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:613][284]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:659][285]LogBlueprintUserMessages: [Player_C_0] activated
+[2017.05.25-09.01.28:842][289]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-09.01.29:151][289]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Level01.Level01_C' with ClassGeneratedBy '/Game/Level01.Level01:PersistentLevel.Level01'
+[2017.05.25-09.02.04:371][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-09.02.04:567][361]LogSavePackage: Save=172.63ms
+[2017.05.25-09.02.04:568][361]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Player3F2EF687441EE0823FB094A9AD6D9E2D.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-09.02.04:572][361]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-09.02.05:468][415]BlueprintLog: New page: Compile Player
+[2017.05.25-09.02.06:138][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-09.02.06:330][426]LogSavePackage: Save=169.85ms
+[2017.05.25-09.02.06:330][426]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/PlayerB6A370E3404012DCB70B4D8878457BE2.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-09.02.06:332][426]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-09.02.46:767][851]BlueprintLog: New page: Compile Player
+[2017.05.25-09.02.47:293][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-09.02.47:487][853]LogSavePackage: Save=170.71ms
+[2017.05.25-09.02.47:487][853]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/PlayerBFD827CD4B2DA816C2D5E6989645A770.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-09.02.47:492][853]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-09.04.04:916][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-09.04.05:113][260]LogSavePackage: Save=169.63ms
+[2017.05.25-09.04.05:113][260]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Player61BB868041546D2A3487DCB1C170222F.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-09.04.05:117][260]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-09.04.06:095][319]BlueprintLog: New page: Compile Player
+[2017.05.25-09.04.06:790][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
+[2017.05.25-09.04.06:984][331]LogSavePackage: Save=169.31ms
+[2017.05.25-09.04.06:984][331]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Player3FFE4C904FD3EDA085E9D38DC69D9189.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset'
+[2017.05.25-09.04.06:986][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset
+[2017.05.25-09.04.13:744][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Content/blueprints/Player.uasset" SILENT=true
