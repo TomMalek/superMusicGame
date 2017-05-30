@@ -19028,3 +19028,15 @@ LogInit: Object subsystem initialized
 [2017.05.30-03.19.58:074][867]MapCheck: New page: Map Check
 [2017.05.30-03.19.58:074][867]LightingResults: New page: Lighting Build
 [2017.05.30-03.19.58:458][867]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.30-03.19.58:542][867]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.30-03.19.58:644][867]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.808ms to complete.
+[2017.05.30-03.19.58:644][867]LogFileHelpers: Loading map 'Level01' took 0.572
+[2017.05.30-03.29.32:725][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.30-03.29.59:406][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level01' took 0.061
+[2017.05.30-03.29.59:408][ 91]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/blueprints/Player] ([1] browsable assets)...
+[2017.05.30-03.29.59:408][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/blueprints/Player]
+[2017.05.30-03.29.59:408][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/Player" FILE="../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Autosaves/Game/blueprints/Player_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.30-03.29.59:631][ 91]LogSavePackage: Save=172.40ms
+[2017.05.30-03.29.59:631][ 91]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Player_Auto26B8FF82A43315260D895EFA4828A18CB.tmp' to '../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Autosaves/Game/blueprints/Player_Auto2.uasset'
+[2017.05.30-03.29.59:633][ 91]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/superMusicGame/Saved/Autosaves/Game/blueprints/Player_Auto2.uasset
+[2017.05.30-03.29.59:634][ 91]LogFileHelpers: Auto-saving content packages took 0.227
