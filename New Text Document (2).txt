@@ -1,7 +1,10 @@
-https://opengameart.org/content/bosses-and-monsters-spritesheets-ars-notoria
-https://opengameart.org/content/16x16-wall-set
-https://opengameart.org/content/rusty-crate
-https://opengameart.org/content/open-book
-https://opengameart.org/content/wall-0
-http://freesound.org/people/bennychico11/sounds/80438/
-http://freesound.org/people/qubodup/sounds/59988/
+Used assets
+https://opengameart.org/content/bosses-and-monsters-spritesheets-ars-notoria Author: Balmer
+https://opengameart.org/content/16x16-wall-set Author: InanZen
+https://opengameart.org/content/open-book Author: sunburn
+https://opengameart.org/content/wall-0 Author: Alekei
+https://opengameart.org/content/zelda-like-tilesets-and-sprites Author: ArMM1998
+https://opengameart.org/content/overhead-action-rpg-characters Author: LUNARSIGNALS
+http://freesound.org/people/bennychico11/sounds/80438/ Author: Bennychico11
+http://freesound.org/people/qubodup/sounds/59988/ Author: Qubodup
+https://opengameart.org/content/free-keyboard-and-controllers-prompts-pack Author Xelu
